@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>INSU Kurslitteratur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">INSU Kurslitteratur</div>
+      <div class="subtitle" id="documentTitle">Dokumentläsare</div>
+    </div>
+
+    <div class="controls" aria-label="Dokumentkontroller">
+      <button id="prevPage" type="button" aria-label="Föregående sida">‹</button>
+      <span id="pageInfo">Sida 1 / 1</span>
+      <button id="nextPage" type="button" aria-label="Nästa sida">›</button>
+
+      <span class="separator" aria-hidden="true"></span>
+
+      <button id="zoomOut" type="button" aria-label="Zooma ut">−</button>
+      <span id="zoomInfo">100 %</span>
+      <button id="zoomIn" type="button" aria-label="Zooma in">+</button>
+    </div>
+  </header>
+
+  <main id="viewerShell" class="viewer-shell">
+    <div id="message" class="message">Laddar dokument…</div>
+
+    <div id="pageWrap" class="page-wrap" hidden>
+      <canvas id="pdfCanvas" aria-label="PDF-sida"></canvas>
+
+      <div class="watermark" aria-hidden="true">
+        <span>INSU • KURSMATERIAL • EJ FÖR DISTRIBUTION</span>
+        <span>INSU • KURSMATERIAL • EJ FÖR DISTRIBUTION</span>
+        <span>INSU • KURSMATERIAL • EJ FÖR DISTRIBUTION</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Materialet är avsett för läsning i denna kursmiljö.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
