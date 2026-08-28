@@ -11,6 +11,7 @@ En enkel GitHub Pages-läsare för PDF-kursmaterial.
 - Blockerar högerklick.
 - Blockerar vanliga kortkommandon för kopiera, spara, skriva ut och visa källkod.
 - Gör utskrift från sidan blank via CSS.
+- Visar ett diskret vattenmärke över dokumentet.
 - Har endast sidbyte och zoom.
 
 ## Viktigt
